@@ -7,8 +7,10 @@ import useMorse from "./useMorse";
 import logo from "./logo.png";
 import "./App.css";
 
-export default function Circle() {
-    return (
-        <span class="dot"></span>        
-    );
+export default function QrCode() {
+    <div id="qrcode">
+        <script type="text/javascript">
+            new QRCode(document.getElementById("qrcode"), "http://jindo.dev.naver.com/collie");
+        </script>
+    </div>
 }

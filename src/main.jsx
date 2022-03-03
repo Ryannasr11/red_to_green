@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import { Circle, QrCode } from './App'
+import Circle from './App'
+import QrCode from './QrCode'
 
 ReactDOM.render(
   <React.StrictMode>
