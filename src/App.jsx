@@ -6,9 +6,20 @@ import useMorse from "./useMorse";
 
 import logo from "./logo.png";
 import "./App.css";
+import Button from '@mui/material/Button';
+import Grid from '@mui/material/Grid';
 
 export default function Circle() {
     return (
-        <span class="dot"></span>        
+        <Grid container justify={'center'}>
+            <Button
+                onClick={() => {
+                    alert('clicked');
+                }}
+            >
+                <span class="dot"></span>
+            </Button>
+        </Grid>
+                
     );
 }
