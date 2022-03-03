@@ -8,9 +8,11 @@ import logo from "./logo.png";
 import "./App.css";
 
 export default function QrCode() {
-    <div id="qrcode">
-        <script type="text/javascript">
-            new QRCode(document.getElementById("qrcode"), "http://jindo.dev.naver.com/collie");
-        </script>
-    </div>
+    return (
+        <div id="qrcode">
+            <script type="text/javascript">
+                new QRCode(document.getElementById("qrcode"), "http://jindo.dev.naver.com/collie");
+            </script>
+        </div>
+    );
 }
