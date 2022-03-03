@@ -1,11 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import App from './App'
+import { Circle, QrCode } from './App'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Circle />
+    <QrCode />
   </React.StrictMode>,
   document.getElementById('root')
 )

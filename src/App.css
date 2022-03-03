@@ -50,8 +50,8 @@ input {
 }
 
 .dot {
-    height: 25px;
-    width: 25px;
+    height: 250px;
+    width: 250px;
     background-color: rgb(255, 0, 0);
     border-radius: 50%;
     display: inline-block;
