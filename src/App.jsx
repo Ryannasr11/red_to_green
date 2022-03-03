@@ -9,17 +9,25 @@ import "./App.css";
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 
+let buttonClicked = 0;
+
 export default function Circle() {
-    return (
-        <Grid container justify={'center'}>
-            <Button
-                onClick={() => {
-                    alert('clicked');
-                }}
-            >
-                <span class="dot"></span>
-            </Button>
-        </Grid>
-                
-    );
+    while (buttonClicked < 1) {
+        return (
+            <Grid container justify={'center'}>
+                <Button
+                    onClick={() => {
+                        buttonClicked = 1;
+                    }}
+                >
+                    <span class="dot"></span>
+                </Button>
+            </Grid>     
+        );
+    }
+    if (buttonClicked = 1) {
+        return (
+            <span class="dot2"></span>
+        )
+    }
 }
