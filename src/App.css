@@ -50,6 +50,9 @@ input {
 }
 
 .dot {
+    vertical-align: middle;
+    text-align:center;
+    left:10%;
     height: 250px;
     width: 250px;
     background-color: rgb(255, 0, 0);
