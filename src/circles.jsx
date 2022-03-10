@@ -10,13 +10,13 @@ import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 
 export function Circle1 () {
+    n = 1
+    while (n > 0) {
+        if (buttonClicked != 0) {
+            
+        }
+    }
     return (
         <span class="dot"></span>
-    )
-}
-
-export function Circle2 () {
-    return (
-        <span class="dot2"></span>
     )
 }

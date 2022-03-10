@@ -9,18 +9,6 @@ import "./App.css";
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 
-import buttonClicked from "./onClick";
-import { Circle1 } from "./circles"
-
-let n = 1;
-
-export default function Circle() {
-    return (
-        <Grid container justify={'center'}>
-            <Button>
-                <Circle1 />
-            </Button>
-        </Grid>     
-    );
+export default function buttonClicked () {
+    buttonClicked = 0;
 }
-                
