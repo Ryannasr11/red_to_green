@@ -10,7 +10,7 @@ let n = 1;
 export default function Circle() {
     return (
         <Grid container justify={'center'}>
-            <a class="js-click">Test</a>
+            <button class="js-click">Test</button>
         </Grid>     
     );
 }
