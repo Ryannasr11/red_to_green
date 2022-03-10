@@ -10,8 +10,14 @@ let n = 1;
 export default function Circle() {
     return (
         <Grid container justify={'center'}>
-            <span class="dot"></span>
+            <a class="js-click">Test</a>
         </Grid>     
     );
 }
+
+$( document ).jQuery(function() {
+    $( ".js-click" ).trigger(function() {
+      $( ".js-click" ).css('background-color', 'green');
+    });
+  });
                 
