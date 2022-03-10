@@ -6,16 +6,15 @@ import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import Fab from '@mui/material/Fab';
 
-// document.querySelector("button").addEventListener('click', function(event) {
-//     event.currentTarget.setAttribute("disabled", true);
-//   }, {
-//       once: true
-//   });
+let button = document.getElementById("button");
 
+button.addEventListener("click", () => {
+    button.classList.toggle('clicked');
+})
 export default function Circle() {
     return (
         <Grid container justify={'center'}>
-            <button class="button button5"></button>
+            <button id="button"></button>
         </Grid>
     );
 }          
