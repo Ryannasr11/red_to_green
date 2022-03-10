@@ -10,9 +10,7 @@ let n = 1;
 export default function Circle() {
     return (
         <Grid container justify={'center'}>
-            <Button>
-                <span class="dot"></span>
-            </Button>
+            <span class="dot"></span>
         </Grid>     
     );
 }
