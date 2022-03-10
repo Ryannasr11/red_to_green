@@ -17,7 +17,7 @@ export default function Circle() {
     buttonOne.addEventListener('click', () => buttonOne.style.backgroundColor = '#00FF00')
     return (
         <Grid container justify={'center'}>
-            <button class="button button5"></button>
+            <button id="one" class="button button5"></button>
         </Grid>
     );
 }          

@@ -33,10 +33,6 @@ input {
   background: #d8dee9;
   border-radius: 10px;
 }
-div {
-    display: flex;
-    justify-content: center;
-}
 
 .button {
     background-color: red;
@@ -47,8 +43,7 @@ div {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: auto;
-    
+    margin: auto; 
 }
 
 
