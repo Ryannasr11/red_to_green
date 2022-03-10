@@ -16,8 +16,8 @@ export default function Circle() {
     let buttonOne = document.querySelector('#one');
     buttonOne.addEventListener('click', () => buttonOne.style.backgroundColor = '#00FF00')
     return (
-        <div>
-            <button></button>
-        </div>   
+        <Grid container justify={'center'}>
+            <button class="button button5"></button>
+        </Grid>
     );
 }          
