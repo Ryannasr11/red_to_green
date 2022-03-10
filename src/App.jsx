@@ -8,8 +8,6 @@ import Fab from '@mui/material/Fab';
 
 export default function Circle() {
     return (
-        <Grid container justify={'center'}>
-            <button class="button button5">50%</button>
-        </Grid>     
+        <button class="button button5"></button> 
     );
 }          
