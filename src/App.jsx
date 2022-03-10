@@ -7,11 +7,9 @@ import Grid from '@mui/material/Grid';
 import Fab from '@mui/material/Fab';
 
 export default function Circle() {
-    let buttonOne = document.querySelector('#one');
-    buttonOne.addEventListener('click', () => buttonOne.style.backgroundColor = '#00FF00')
     return (
         <Grid container justify={'center'}>
-            <button id="one" class="button button5"></button>
+            <button class="button button5"></button>
         </Grid>
     );
 }          
