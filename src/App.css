@@ -60,7 +60,19 @@ input {
     display: inline-block;
   }
 
-  .dot:focus {     
+.dot:focus {     
     background-color:rgb(0, 255, 0);    
+}
+
+.dot:active {     
+    background-color:rgb(255, 0, 157);    
+}
+
+.dot:visited {     
+    background-color:rgb(255, 166, 0);    
+}
+
+.dot:hover {     
+    background-color:rgb(255, 0, 13);    
 }
 
