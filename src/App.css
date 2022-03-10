@@ -43,7 +43,7 @@ input {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin:12em 3em 3em 3em;
+    margin:12em auto 3em auto;
 }
 
 
@@ -52,11 +52,11 @@ input {
 .button5 {border-radius: 50%;}
 
 .button:active {
-    background-color: rgb(0, 255, 0);
-    color: rgb(0, 255, 0);
+    background-color: rgb(0, 153, 0);
+    color: rgb(0, 153, 0);
 }
 .button:focus {
-    background-color: rgb(0, 255, 0);
-    color: rgb(0, 255, 0);
+    background-color: rgb(0, 153, 0);
+    color: rgb(0, 153, 0);
 }
 
