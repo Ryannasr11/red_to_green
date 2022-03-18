@@ -27,33 +27,38 @@ input {
   align-items: center;
 }
 
-.emojis {
-  display: inline-block;
-  padding: 15px;
-  background: #d8dee9;
-  border-radius: 10px;
+.container {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+.container2 {
+    display: flex;
+    position: absolute;
+    top: 75%;
+    right: 50%;
+    transform: translate(50%, -75%);
+    border: 5px solid #000000;
+    padding: 10px;
 }
 
 .button {
     background-color: red;
     border: none;
     color: red;
-    padding: 30%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin:12em auto 3em auto;
+    height: 200px;
+    width: 200px;
 }
-
-
-
 
 .button5 {border-radius: 50%;}
 
 .button:active {
     background-color: rgb(0, 153, 0);
     color: rgb(0, 153, 0);
+    
 }
 .button:focus {
     background-color: rgb(0, 153, 0);
