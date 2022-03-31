@@ -3,7 +3,7 @@ let speed2 = 0;
 const speed3 = 0;
 const speed4 = 0;
 
-let speedSensor = "time recorded: " + speed1 + "." + speed2 + speed3 + speed4 + "ms";
+let speedSensor = "Server Response Time: " + speed1 + "." + speed2 + speed3 + speed4 + "ms";
 console.log(speedSensor);
 
 
@@ -20,7 +20,7 @@ document.querySelector("button").addEventListener('click', function(event) {
 const sect = document.querySelector('section');
 
 
-console.log(speedSensor);
+
 const para = document.createElement('p');
 para.textContent = speedSensor;
 sect.appendChild(para);
@@ -30,9 +30,11 @@ while (n < 1) {
     if (clicked = 1) {
         speed1 = Math.floor(Math.random() * 20);
         speed2 = Math.floor((Math.random() * 899) + 100);
-        speedSensor = "time recorded: " + speed1 + "." + speed2 + "ms";
+        speedSensor = "Server Response Time: " + speed1 + "." + speed2 + "ms";
         n = 2;
     }
 }
+
+console.log(speedSensor);
 
 
