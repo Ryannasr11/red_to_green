@@ -41,7 +41,7 @@ input {
     top: 75%;
     right: 50%;
     transform: translate(50%, -75%);
-    border: 5px solid #000000;
+    border: 0px solid #000000;
     padding: 10px;
 }
 
