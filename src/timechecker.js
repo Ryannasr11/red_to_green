@@ -28,7 +28,7 @@ sect.appendChild(para);
 let n = 0;
 while (n < 1) {
     if (clicked = 1) {
-        speed1 = Math.floor(Math.random() * 20);
+        speed1 = Math.floor(Math.random() * 10) + 10;
         speed2 = Math.floor((Math.random() * 899) + 100);
         speedSensor = "Server Response Time: " + speed1 + "." + speed2 + "ms";
         n = 2;
